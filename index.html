@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeu | Trouve le nombre mystère</title>
+</head>
+<body>
+    <h1>🔮 Trouve le nombre mystère 🔮</h1>
+
+    <form action="https://kode.ch/getpost/">
+        <label for="nombre">
+            Entre un nombre entre
+            <strong id="nbMin">xx</strong> et
+            <strong id="nbMax">yy</strong>
+            et tente ta chance !
+        </label>
+        <p>
+            <input type="text" name="nombre" id="nombre">
+            <button type="submit">Je tente ma chance !</button>
+        </p>
+    </form>
+
+    <h2>Historique</h2>
+
+    <ul id="historique"></ul>
+
+    <!-- JavaScript -->
+    <script src="js/deviner-nombre.js"></script>
+</body>
+</html>
